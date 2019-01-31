@@ -1,0 +1,29 @@
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: IT Resources
+email: your-email@example.com
+description: Creamos Experiencias más allá de lo digital!
+url: "http://www.itrsa.com.ar"
+
+
+#Información de IT Resources
+email: contacto@itrsa.com.ar
+phone: 
+  primary: +54 011 5218 4444
+  alt: +54 011 5218 4444
+facebook_username: itresources
+instagram_username: itresources.ar
+linkedin_username: it-resources---soluciones-informaticas
+
+# Build settings
+markdown: kramdown
+theme: jekyll-bulma
+plugins:
+  - jekyll-feed
+
+
+exclude: [README.md"]
